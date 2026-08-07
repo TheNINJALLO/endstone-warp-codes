@@ -20,8 +20,9 @@
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> &bull;
-  <a href="#compatibility">Compatibility</a> &bull;
+  <a href="#what-it-does">What it does</a> &bull;
+  <a href="#how-to-use">How to use</a> &bull;
+  <a href="#commands-and-permissions">Commands</a> &bull;
   <a href="#install">Install</a> &bull;
   <a href="https://github.com/TheNINJALLO/endstone-warp-codes/releases">Releases</a>
 </p>
@@ -30,9 +31,34 @@
 
 Warp Code Manager Plugin for Endstone - A complete code management system with generation, redemption, and tag management. This release is aligned with Endstone 0.11.8 and Minecraft Bedrock Dedicated Server 1.26.40, and is distributed as a Python wheel for direct installation in an Endstone server.
 
-## Capabilities
+## What it does
 
--
+- Generates time-limited warp/access codes, redeems them, and manages the resulting player tags.
+- Provides GUI-based administrator management, player history and time-left views, statistics, and webhook support.
+- Includes repair and cleanup operations for code and player-tag consistency.
+
+## How to use
+
+1. Run `/codes` (or `/warp` or `/warpcodes`) as an operator and configure a code pool through the management form.
+2. Give a generated code to a player through your intended private channel; the player enters it through `/redeem`.
+3. Players can check `/timeleft` and `/myhistory`; transfer-capable codes use `/toc <player>`.
+4. Use cleanup, name-update, tag-fix, and statistics commands only as an operator after backing up plugin data.
+
+## Commands and permissions
+
+| Command / usage | What it does | Access |
+|---|---|---|
+| `/codes`<br><sub>Aliases: `/warp`, `/warpcodes`</sub> | Manage warp codes | `warp.admin` |
+| `/redeem` | Redeem a warp code | All players |
+| `/viewall` | View all players' active codes | `warp.admin` |
+| `/stats` | Show warp code statistics | `warp.admin` |
+| `/clearunredeemed` | Clear all unredeemed codes | `warp.admin` |
+| `/timeleft` | Check your active codes | All players |
+| `/toc <player>` | Transfer build tag to another player | All players |
+| `/generate` | Generate codes (fallback) | `warp.admin` |
+| `/myhistory` | View your code redemption history | All players |
+| `/updateplayernames` | Update player names in database | `warp.admin` |
+| `/fixtags` | Fix tags for all players (reactivate valid codes) | `warp.admin` |
 
 ## Compatibility
 
