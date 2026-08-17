@@ -130,7 +130,7 @@ Code Type: Single-use
    - Check if other plugins are interfering with permissions
 
 3. **Endstone Version Compatibility**
-   - Ensure you're using Endstone 0.11.8 or later
+   - Ensure you're using Endstone 0.11.9 or later
    - Check compatibility with your Minecraft Bedrock version
 
 4. **Server Configuration**

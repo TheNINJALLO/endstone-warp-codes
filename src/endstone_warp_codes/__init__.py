@@ -4,7 +4,7 @@ Warp Code Manager Plugin for Endstone
 A complete code management system with generation, redemption, and tag management
 """
 
-__version__ = "1.5.0"
+__version__ = "1.5.3"
 __author__ = "Your Name"
 
 from .warp_plugin import WarpCodeManager

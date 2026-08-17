@@ -1,6 +1,6 @@
 # src/endstone_warp_codes/warp_plugin.py
 """
-Warp Code Manager Plugin for Endstone 0.11.8+
+Warp Code Manager Plugin for Endstone 0.11.9+
 Complete 1:1 port from JavaScript implementation with custom duration support
 """
 
