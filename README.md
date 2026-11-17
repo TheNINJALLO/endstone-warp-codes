@@ -1,3 +1,7 @@
+[Download compatibility release v1.5.4](https://github.com/TheNINJALLO/endstone-warp-codes/releases/tag/v1.5.4).
+
+> Compatibility update **1.5.4** targets **Endstone 0.11.16 / BDS 1.26.65.1**, protocol **2225**, Python **3.11+**. API level remains **0.11**. Keep configuration and player data when replacing the wheel. Earlier acceptance records below describe their original builds; current qualification is tracked in the workspace upgrade report.
+
 <!-- endstone-professional-header:start -->
 <p align="center">
   <img src="docs/assets/banner.svg" width="100%" alt="Endstone Warp Codes &mdash; Warp Code Manager Plugin for Endstone - A complete code management system with generation, redemption, and tag management">
@@ -9,9 +13,9 @@
 </p>
 
 <p align="center">
-  <img alt="Endstone 0.11.14" src="https://img.shields.io/badge/Endstone-0.11.14-52b7a8?style=flat-square">
+  <img alt="Endstone 0.11.16" src="https://img.shields.io/badge/Endstone-0.11.16-52b7a8?style=flat-square">
   <img alt="API 0.11" src="https://img.shields.io/badge/API-0.11-63b8ff?style=flat-square">
-  <img alt="BDS 1.26.52.3" src="https://img.shields.io/badge/BDS-1.26.52.3-8b7dff?style=flat-square">
+  <img alt="BDS 1.26.65.1" src="https://img.shields.io/badge/BDS-1.26.65.1-8b7dff?style=flat-square">
   <img alt="Python >=3.11" src="https://img.shields.io/badge/Python-%3E=3.11-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
 </p>
 
@@ -75,7 +79,7 @@ Warp Code Manager Plugin for Endstone - A complete code management system with g
 Download the wheel from the matching GitHub release:
 
 ```bash
-gh release download v1.5.3 --repo TheNINJALLO/endstone-warp-codes --pattern "*.whl"
+gh release download v1.5.4 --repo TheNINJALLO/endstone-warp-codes --pattern "*.whl"
 ```
 
 Copy the downloaded wheel into the server's `plugins/` directory, remove any older wheel for the same plugin, and restart Endstone.

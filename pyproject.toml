@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "endstone-warp-codes"
-version = "1.5.3"
+version = "1.5.4"
 description = "Warp Code Manager Plugin for Endstone - A complete code management system with generation, redemption, and tag management"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
     {name = "StoneOS", email = "contact@stoneos.net"}
@@ -23,7 +23,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "endstone>=0.11.9,<0.12",
+    "endstone>=0.11.16,<0.12",
 ]
 
 [project.urls]
